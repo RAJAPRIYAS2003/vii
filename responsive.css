@@ -1,0 +1,56 @@
+@media screen and (min-width:320px) and (max-width:425px){
+    .navcontainer{
+        height: 0;
+    }
+    .navcontainer nav .left .logo img{
+        width: 40px;
+        height: 40px;
+    }
+    nav .top{
+        padding: 7px;
+        height: 11vh;
+        text-align: center;
+    }
+    .left h2{
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .left .search{
+        display: none;
+    }
+    .right img{
+        display: none;
+    }
+    nav .bottom{
+        width: 50%;
+        height: 50vh;
+        position: absolute;
+        right: 0;
+        display: block;
+    }
+    nav .bottom label{
+        display: block;
+        top: -35px;
+        color: white;
+    }
+    nav .bottom input:checked ~ ul{
+        display: block;
+        right: 0;
+    }
+    nav .bottom ul{
+        flex-direction: column;
+        text-align: start;
+        height: 60vh;
+        background-color:rgba(255,255,255,0.5);
+        border: 1px solid white;
+        transition: 0.5s ease-in-out;
+        position: absolute;
+        right: -100%;
+    }
+    nav .bottom ul li {
+        padding: 10px 0;
+    }
+    .back-video{
+        top: 37px;
+    }
+}
